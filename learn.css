@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(185, 160, 207);
+}
+h1{
+   font-size:xx-large;
+   color: rgb(9, 38, 92);
+}
+h1:hover{
+    background-color: brown;
+    color: burlywood;
+}
+h2{
+    font-size:large;
+    color: rgb(177, 34, 63);
+}
+h2::before{
+   content:"starting" ;
+   font-weight: bold;
+   font-size: 40px;
+   
+}
+h2::after{
+    content:"ending"
+}
+h3{
+   text-decoration: underline; 
+   font-size:50px;
+   color: rgb(197, 56, 197);
+}
+.firstarticle1{
+    font-size:150%;
+    color:darkorange;
+
+}
+.firstarticle1:hover{
+    background-color: crimson;
+    color:darkgray
+
+}
+.firstarticle2{
+    font-size:100%;
+    color: rgb(179, 19, 93);
+}
+.firstarticle2::first-line{
+background-color: green;
+}
+.secondarticle{
+    font-size:10px;
+    color: rgb(8, 100, 77);
+    
+}
+.firstarticle1::first-letter{
+    font-weight:bold;
+    font-size: 20px; 
+    color: green;
+}
+.firstarticle2::selection{
+   background-color: darkblue; 
+}
+/* #develop{
+    
+    color:rgb(156, 226, 139)
+    font-size:50%; */
+ 
+
+
+
+ .underline{
+    text-decoration: underline;
+} 
+ /* .lastarticle{
+    font-size:30px;
+    color:brown;
+    
+} */
+#develop{
+    
+    color:rgb(158, 26, 26);
+    font-size:20px;
+}
+
+
+.list{
+    font-size:20px;
+    color:rgb(7, 116, 34);
+    
+}
+.lastarticle{
+    font-size:30px;
+    color:brown;
+    
+} 
+.lastarticle::before{
+    content: "before";
+}
+.inputtag:focus{
+    background-color: rgb(27, 134, 23);
+    color: rgb(51, 2, 25);
+}
+.name{
+    background-color: rgb(136, 7, 7);
+    color: rgb(198, 207, 198);
+}
